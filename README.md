@@ -99,15 +99,19 @@ python3 scripts/structures.py --dir=data --symbols=X,F,S
 You can visualize the structures in the generated XYZ file using, for example, [PyMOL](https://pymol.org/2/).
 
 
+## Dockerization
 
+### To create the docker image 
 `docker build -t molgym-image`
 
+### To run the container using the created image 
 `docker run -d --name molgym-container -p 8000:3000 molgym-image`
 
+### Video Link to the Summary
 https://youtu.be/X6GjO4ZsUHg
 
-
-
+### Slide Deck
+https://docs.google.com/presentation/d/1p6Hw7B1CCpJkYF7pTDRmVQkuJM0zsbGl_xNWhRQ-LEY/edit?usp=sharing
 ## Citation
 
 If you use this code, please cite our papers:
